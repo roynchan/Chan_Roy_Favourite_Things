@@ -20,6 +20,7 @@
 }
 
 .lightbox {
+
     border: .5em solid #D09c00;
     background-color: #FFFF;
     border-radius: 25px;
@@ -42,4 +43,14 @@
         grid-template-columns: repeat(2, 2fr);
         justify-content: space-evenly;
         row-gap: 1em;
+}
+
+.button {
+    margin: 0;
+    position: absolute;
+    margin-top: 1em;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #FFFF;
 }

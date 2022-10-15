@@ -1,4 +1,5 @@
 .bio_panel {
+    
 
 
 
@@ -7,6 +8,8 @@
         margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
+    height: 250px;
+    width: 300px;
         margin-bottom: 2em;
     }
 
@@ -20,9 +23,10 @@
         color: #D09c00;
     }
 
-    .p_role { font-size: 1em; 
+    .p_desc { font-size: 1em; 
         color: #D09c00;
-        font-family: 'Oswald', sans-serif;}
+        font-family: 'Oswald', sans-serif;
+    margin-bottom: 1em;}
     .p_nickname { font-size: 0.7em; 
         color: #D09c00;
         font-family: 'Oswald', sans-serif;}
