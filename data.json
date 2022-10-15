@@ -1,21 +1,9 @@
 {
-    "Manchester United": {
+    "Football": {
         "name":"Manchester United",
-        "role":"Coordinator",
-        
-        "avatar":"justin.jpg"
-    },
-    "John": {
-        "name":"John",
-        "role":"super chill prof",
-        "nickname":"just john",
-        "avatar":"john.jpg"
-    },
-    "Joe": {
-        "name":"Joe",
-        "role":"Prof",
-        "nickname":"Teddy Bear",
-        "avatar":"joe.jpg"
+        "desc":"One of my favourite things is football, and Manchester United has always been my favourite football cub of all time",
+        "avatar":"manu.jpg"
     }
+
 
   }
