@@ -1,0 +1,45 @@
+.topic h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+.topic h2:hover {
+    color: #D09c00;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.football_container {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    margin-left: 3em;
+    margin-top: 1em;
+
+}
+
+.lightbox {
+    border: .5em solid #D09c00;
+    background-color: #FFFF;
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 2em;
+    position: absolute;
+    right: 120px;
+    opacity: (0);
+    transition: 200ms ease-in-out;
+}
+
+.shown {
+    opacity: (1);
+    transition: 200ms ease-in-out;
+}
+
+.twoitem {
+    display: grid;
+        grid-column: 2 / span 2;
+        grid-template-columns: repeat(2, 2fr);
+        justify-content: space-evenly;
+        row-gap: 1em;
+}

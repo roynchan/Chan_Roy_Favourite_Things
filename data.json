@@ -1,0 +1,21 @@
+{
+    "Manchester United": {
+        "name":"Manchester United",
+        "role":"Coordinator",
+        
+        "avatar":"justin.jpg"
+    },
+    "John": {
+        "name":"John",
+        "role":"super chill prof",
+        "nickname":"just john",
+        "avatar":"john.jpg"
+    },
+    "Joe": {
+        "name":"Joe",
+        "role":"Prof",
+        "nickname":"Teddy Bear",
+        "avatar":"joe.jpg"
+    }
+
+  }
