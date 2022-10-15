@@ -62,12 +62,18 @@
 .herf {
 
         position: absolute;
-        text-align: center;
-        
+  top: 40%;
+  left: 25%;
         display:inline-block;
         font-size: 5em;
          color: #FFFFFF;
          text-align: center;
          font-family: 'Oswald', sans-serif;
+}
+
+.herf:hover {
+    color: #E4d48b;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
 }
 
