@@ -1,9 +1,6 @@
-// imports always go at the top of the file
-// this is called an IIFE (immediately invoked function expression)
+
 import { getData1,getData2 } from "./modules/dataMiner.js";
 
-// it's a pretty common JavaScript programming pattern
-// also called a module file
 (() => {
     console.log('fired!');
 
@@ -26,27 +23,23 @@ import { getData1,getData2 } from "./modules/dataMiner.js";
      
 
     function buildThings(data) {
-        // get all the keys (names) from the data object and use that to iterate through the data
-      //debugger;
+
 
      
       
         faveData = data
         
-        const things = Object.keys(data); // Object.keys creates an array
+        const things = Object.keys(data); 
 
         things.forEach(thing => {
-            // copy the template's contents
+    
             let panel = theTemplate;
 
-            // get a reference to the template's elements
             let containers = panel.firstElementChild.children;
 
-            // grab the image from the object and set it as the source 
-           
+              
             containers[0].querySelector('img').src = `images/${data[thing].avatar}`;
             containers[0].querySelector('img').id = thing;
-            containers[0].querySelector('img').addEventListener('click',showThing);
            
       
             containers[1].textContent = data[thing].name,
@@ -61,12 +54,6 @@ import { getData1,getData2 } from "./modules/dataMiner.js";
         })
     }
 
-    function showThing() {
-
-        
-        let currentThing = faveData[this.id];
-       
-    }
     
  
   function addFootball (){
