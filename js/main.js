@@ -74,7 +74,7 @@ function addCountry (){
 }
 
 
-
+  
   openFootball.addEventListener("click",addFootball);
     openFootball.addEventListener("click",popup);
 
